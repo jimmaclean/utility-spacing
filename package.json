@@ -1,0 +1,28 @@
+{
+  "name": "utility-spacing",
+  "version": "0.1.0",
+  "description": "Tailwind inspired set of CSS spacing utility classes",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmaclean/utility-spacing.git"
+  },
+  "keywords": [
+    "CSS",
+    "webpack"
+  ],
+  "author": "James Maclean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmaclean/utility-spacing/issues"
+  },
+  "homepage": "https://github.com/jimmaclean/utility-spacing#readme"
+}
