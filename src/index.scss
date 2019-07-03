@@ -1,0 +1,15 @@
+@import "variables";
+@import "utility-spaces";
+
+body {
+ background-color: $bg-color;
+}
+
+.flex {
+    display: flex;
+  }
+  .demo-box {
+    background: grey;
+    height: 40px;
+    width: 40px;
+  }
