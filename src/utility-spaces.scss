@@ -81,35 +81,35 @@ $space: (
   @include breakpointWrap($bpKey){
 
     @each $sKey, $sVal in $space {
-      .#{$bpKey}\:m-#{$sKey}{
+      .#{$bpKey}--m-#{$sKey}{
         margin: $sVal;
       }
-        .#{$bpKey}\:m-b-#{$sKey}{
+        .#{$bpKey}--m-b-#{$sKey}{
           margin-bottom: $sVal;
         }
-        .#{$bpKey}\:m-t-#{$sKey} {
+        .#{$bpKey}--m-t-#{$sKey} {
           margin-top: $sVal;
         }
-        .#{$bpKey}\:m-l-#{$sKey} {
+        .#{$bpKey}--m-l-#{$sKey} {
           margin-left: $sVal;
         }
-        .#{$bpKey}\:m-r-#{$sKey} {
+        .#{$bpKey}--m-r-#{$sKey} {
           margin-right: $sVal;
         }
       
-      .#{$bpKey}\:p-#{$sKey} {
+      .#{$bpKey}--p-#{$sKey} {
         padding: $sVal;
       }
-        .#{$bpKey}\:p-b-#{$sKey} {
+        .#{$bpKey}--p-b-#{$sKey} {
         padding-bottom: $sVal;
         }
-        .#{$bpKey}\:p-t-#{$sKey} {
+        .#{$bpKey}--p-t-#{$sKey} {
           padding-top: $sVal;
         }
-        .#{$bpKey}\:p-l-#{$sKey} {
+        .#{$bpKey}--p-l-#{$sKey} {
           padding-left: $sVal;
         }
-        .#{$bpKey}\:p-r-#{$sKey} {
+        .#{$bpKey}--p-r-#{$sKey} {
           padding-right: $sVal;
         }  
     };
