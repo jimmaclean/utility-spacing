@@ -3,13 +3,15 @@
 
 body {
  background-color: $bg-color;
+ color: $text-color;
+ font-family: sans-serif;
 }
 
 .flex {
     display: flex;
   }
   .demo-box {
-    background: grey;
+    background: $text-color;
     height: 40px;
     width: 40px;
   }
